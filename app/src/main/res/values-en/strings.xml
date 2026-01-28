@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rick and Morty DAM</string>
+
+    <string name="email">Email Address</string>
+    <string name="Email">Email Address</string>
+    <string name="contrase_a">Password</string>
+    <string name="registrarse">Sign Up</string>
+    <string name="iniciar_sesion">Login</string>
+    <string name="volver_login">Back to Login</string>
+
+    <string name="episodios">Episodes</string>
+    <string name="estad_sticas">Statistics</string>
+    <string name="ajustes">Settings</string>
+    <string name="acerca_de">About</string>
+
+    <string name="nombre_del_episodio">Episode Name</string>
+    <string name="title_details">Episode Details</string>
+    <string name="marcar_como_visto">Mark as watched</string>
+
+    <string name="btn_logout">Logout</string>
+    <string name="hello_blank_fragment">Hello!</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_episodes"> <fragment
+    android:id="@+id/nav_episodes"
+    android:name="dam.pmdm.rickyandmortyapp.EpisodesFragment"
+    android:label="Episodios"
+    tools:layout="@layout/fragment_episodes" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="dam.pmdm.rickyandmortyapp.StatsFragment"
+        android:label="Estadísticas"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="dam.pmdm.rickyandmortyapp.SettingsFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_settings" />
+
+
+    <fragment
+        android:id="@+id/episodeDetailFragment"
+        android:name="dam.pmdm.rickyandmortyapp.EpisodeDetailFragment"
+        android:label="Detalles del Episodio"
+        tools:layout="@layout/fragment_episode_detail">
+        <argument
+            android:name="episodeId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
